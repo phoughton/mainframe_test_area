@@ -23,3 +23,15 @@ github:
       # source venv/bin/activate
       # python -m pip install -r requirements.txt
       
+      
+tasks:
+  - init: |
+      docker-compose pull
+  - command: |
+      docker-compose up
+
+
+vscode:
+  extensions:
+    - azuretools.vscode-docker
+
