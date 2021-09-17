@@ -29,9 +29,3 @@ tasks:
       docker-compose pull
   - command: |
       docker-compose up
-
-
-vscode:
-  extensions:
-    - azuretools.vscode-docker
-
